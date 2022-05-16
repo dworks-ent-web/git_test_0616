@@ -1,8 +1,14 @@
-.contents {
-    &__text {
-        margin-top: 16px;
-        line-height: 24px;
-        color: #4b4b4b;
-        font-weight: bold;
+.card{
+    width: 500px;
+    &__image{
+        width: 450px;
+    }
+    &__textbox{
+        &__title{
+            font-size: 18px;
+        }
+        &__text{
+            font-size: 14px;
+        }
     }
 }
